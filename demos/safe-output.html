@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Safe Output Demo</title></head>
+<body>
+  <h1>Safe Output Encoding</h1>
+  <input id="name" placeholder="Type your name">
+  <button id="render">Render safely</button>
+  <p id="output"></p>
+  <script>
+    const nameInput = document.querySelector('#name');
+    const output = document.querySelector('#output');
+    document.querySelector('#render').addEventListener('click', () => {
+      output.textContent = `Hello, ${nameInput.value}`;
+    });
+  </script>
+</body>
+</html>
