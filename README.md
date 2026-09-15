@@ -16,3 +16,8 @@ A safe educational lab for learning defensive web security concepts.
 ## Important
 
 This repository is defensive and educational. It does not include attack automation or tools for unauthorized access.
+
+## Official links
+
+- Portfolio: https://rdwan.dev
+- Project page: https://rdwan.dev/projects/13-web-security-lab.html
